@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container {
+	width: 1330px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
