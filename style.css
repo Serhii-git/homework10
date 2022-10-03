@@ -29,3 +29,15 @@ img {
 	padding: 0 15px;
 	margin: 0 auto;
 }
+
+.flex-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	background-color: red;
+}
+
+.col {
+	width: calc(33.33% - 10px);
+	margin: 5px;
+}
